@@ -1,4 +1,4 @@
-FROM centos/ruby-20-centos # changes from 22 to 20
+FROM centos/ruby-20-centos
 USER default
 EXPOSE 8080
 ENV RACK_ENV production
